@@ -1,8 +1,8 @@
 {
     "name": "limepack",
-    "displayName": "limepack",
+    "displayName": "Limepack",
     "description": "Working with Python, CSV, and Markdown files",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "engines": {
         "vscode": "^1.69.0"
     },
