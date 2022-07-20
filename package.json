@@ -1,15 +1,16 @@
 {
-    "name": "Limepack",
+    "name": "limepack",
     "displayName": "limepack",
     "description": "Working with Python, CSV, and Markdown files",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.69.0"
     },
     "categories": [
         "Extension Packs"
     ],
-    "extensionPack": [ 
+    "extensionPack": [
+        "al2me6.ksp-cfg-support",
         "anseki.vscode-color", 
         "bierner.markdown-mermaid", 
         "cschlosser.doxdocgen", 
@@ -26,9 +27,7 @@
         "mkxml.vscode-filesize", 
         "ms-python.python", 
         "ms-python.vscode-pylance", 
-        "ms-toolsai.jupyter", 
-        "ms-toolsai.jupyter-keymap", 
-        "ms-toolsai.jupyter-renderers", 
+        "ms-vscode.hexeditor",
         "ms-vscode-remote.remote-containers", 
         "ms-vscode-remote.remote-ssh", 
         "ms-vscode-remote.remote-ssh-edit", 
@@ -44,7 +43,6 @@
         "satokaz.vscode-markdown-header-coloring", 
         "shd101wyy.markdown-preview-enhanced", 
         "slevesque.vscode-3dviewer", 
-        "slevesque.vscode-hexdump",
         "sukumo28.wav-preview",
         "tomoki1207.pdf", 
         "trond-snekvik.simple-rst", 
@@ -52,5 +50,17 @@
         "yuenm18.ooxml-viewer", 
         "yzane.markdown-pdf", 
         "yzhang.markdown-all-in-one"
-    ]
+    ],
+    "galleryBanner": {
+        "color": "#66CC00",
+        "theme": "light"
+    },
+    "icon": "images/icon.png",
+    "publisher": "Limespy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Limespy/limepack.git"
+    },
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "homepage": "https://github.com/Limespy/limepack/blob/main/README.md"
 }
