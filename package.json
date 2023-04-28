@@ -2,7 +2,7 @@
     "name": "limepack",
     "displayName": "Limepack",
     "description": "Working with Python, CSV, and Markdown files",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.69.0"
     },
@@ -44,6 +44,7 @@
         "shd101wyy.markdown-preview-enhanced", 
         "slevesque.vscode-3dviewer", 
         "sukumo28.wav-preview",
+        "techer.open-in-browser",
         "tomoki1207.pdf", 
         "trond-snekvik.simple-rst", 
         "twxs.cmake", 
