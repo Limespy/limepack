@@ -1,2 +1,18 @@
-node_modules
+.*
+!.github
+
+# CAD
+*.FCStd1
+*.stl
+*.x3g
+
+# Python
+__pycache__
+
+# Distribution / packaging
+*.egg-info
+dist/
+
+
+# VS Code extensions
 *.vsix
